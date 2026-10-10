@@ -1,0 +1,43 @@
+{
+  "beginner": {
+    "title": "Beginner",
+    "subtitle": "Describing data and the language of probability",
+    "topics": [
+      { "slug": "types-of-data-and-measurement-scales", "title": "Types of Data and Measurement Scales", "description": "Nominal, ordinal, interval and ratio scales, and why they decide which summaries and tests are valid." },
+      { "slug": "descriptive-statistics", "title": "Descriptive Statistics", "description": "Centre, spread and shape: mean, median, standard deviation, IQR, z-scores, skewness and kurtosis." },
+      { "slug": "data-visualization", "title": "Data Visualization", "description": "Choosing the right chart, distribution plots and principles of honest graphics." },
+      { "slug": "probability-basics", "title": "Probability Basics", "description": "Events, axioms, conditional probability, independence, Bayes' theorem and counting." },
+      { "slug": "discrete-distributions", "title": "Discrete Distributions", "description": "Bernoulli, binomial, Poisson, geometric, negative binomial and hypergeometric models for counts." },
+      { "slug": "continuous-distributions", "title": "Continuous Distributions", "description": "Densities, the normal distribution, exponential, gamma, log-normal, Weibull and Pareto." },
+      { "slug": "sampling-and-the-central-limit-theorem", "title": "Sampling and the Central Limit Theorem", "description": "Sampling designs, standard errors, the law of large numbers and the CLT." }
+    ]
+  },
+  "intermediate": {
+    "title": "Intermediate",
+    "subtitle": "Inference, relationships and linear models",
+    "topics": [
+      { "slug": "point-estimation-and-confidence-intervals", "title": "Point Estimation and Confidence Intervals", "description": "Bias, MSE, maximum likelihood and confidence intervals for means, proportions and variances." },
+      { "slug": "hypothesis-testing", "title": "Hypothesis Testing", "description": "Null and alternative hypotheses, p-values, error types, power and multiple testing." },
+      { "slug": "t-tests", "title": "t-Tests", "description": "One-sample, paired and two-sample (pooled and Welch) t-tests with effect sizes." },
+      { "slug": "correlation", "title": "Correlation", "description": "Pearson, Spearman and Kendall correlation, inference, partial correlation and confounding." },
+      { "slug": "simple-linear-regression", "title": "Simple Linear Regression", "description": "Least squares, R-squared, inference on the slope, prediction intervals and log models." },
+      { "slug": "multiple-linear-regression", "title": "Multiple Linear Regression", "description": "Ceteris paribus interpretation, dummies, interactions, F-tests, omitted variable bias and multicollinearity." },
+      { "slug": "regression-diagnostics", "title": "Regression Diagnostics", "description": "Residual analysis, heteroskedasticity, autocorrelation, influential points and robust standard errors." },
+      { "slug": "anova", "title": "Analysis of Variance (ANOVA)", "description": "One-way and two-way ANOVA, assumptions, post-hoc comparisons and interactions." }
+    ]
+  },
+  "expert": {
+    "title": "Expert",
+    "subtitle": "Categorical data, advanced models and causal questions",
+    "topics": [
+      { "slug": "chi-square-tests", "title": "Chi-Square Tests", "description": "Goodness of fit, independence and homogeneity tests, Fisher and McNemar tests, Cramér's V." },
+      { "slug": "non-parametric-tests", "title": "Non-Parametric Tests", "description": "Sign, Wilcoxon, Mann-Whitney, Kruskal-Wallis, Friedman and permutation tests." },
+      { "slug": "logistic-regression", "title": "Logistic Regression", "description": "Binary outcomes, odds ratios, likelihood-ratio tests, ROC/AUC and calibration." },
+      { "slug": "generalized-linear-models", "title": "Generalized Linear Models (Poisson and Beyond)", "description": "Link functions, Poisson and negative binomial count models with offsets, Gamma models for costs." },
+      { "slug": "time-series-analysis", "title": "Time Series Analysis", "description": "Trend and seasonality, stationarity, ACF/PACF, exponential smoothing, SARIMA and forecast evaluation." },
+      { "slug": "pca-and-multivariate-analysis", "title": "PCA and Multivariate Analysis", "description": "Principal components, factor analysis, clustering and Mahalanobis distance." },
+      { "slug": "causal-inference-and-difference-in-differences", "title": "Causal Inference and Difference-in-Differences", "description": "Potential outcomes, identification strategies, DiD with fixed effects and event studies." },
+      { "slug": "bootstrap-and-resampling", "title": "Bootstrap and Resampling Methods", "description": "Bootstrap standard errors and confidence intervals, permutation tests and cross-validation." }
+    ]
+  }
+}

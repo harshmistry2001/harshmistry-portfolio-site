@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Statistics Reference</title>
+  <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <span class="brand">Statistics Reference</span>
+    <button type="button" id="menu-toggle" aria-expanded="false" aria-controls="sidebar">Topics</button>
+  </header>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="brand brand-side">Statistics Reference</div>
+
+    <nav id="mode-switch" class="switch" aria-label="Mode">
+      <a href="#/study" data-mode="study">Study</a>
+      <a href="#/general" data-mode="general">General</a>
+    </nav>
+    <nav id="group-switch" class="switch sub" aria-label="Course part"></nav>
+
+    <label class="search">
+      <span class="visually-hidden">Search topics</span>
+      <input type="search" id="search" placeholder="Search  ( / )" autocomplete="off" spellcheck="false">
+    </label>
+
+    <div id="nav" class="nav"></div>
+  </aside>
+
+  <main id="main" tabindex="-1">
+    <article id="doc" class="doc">
+      <p class="muted">Loading…</p>
+    </article>
+  </main>
+
+  <script src="vendor/katex/katex.min.js"></script>
+  <script src="vendor/hljs/highlight.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

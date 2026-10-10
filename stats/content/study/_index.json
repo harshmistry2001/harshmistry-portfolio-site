@@ -1,0 +1,1067 @@
+{
+  "stats1": {
+    "title": "Stats 1",
+    "subtitle": "Descriptive statistics and probability",
+    "units": [
+      {
+        "title": "Data and measurement",
+        "topics": [
+          {
+            "slug": "types-of-variables-and-scales",
+            "title": "Types of Variables and Scales",
+            "practice": false,
+            "builds_on": [],
+            "general": "beginner/types-of-data-and-measurement-scales"
+          },
+          {
+            "slug": "data-collection-methods-and-studies",
+            "title": "Data Collection Methods and Studies",
+            "practice": false,
+            "builds_on": [
+              "stats1/types-of-variables-and-scales"
+            ],
+            "general": "beginner/sampling-and-the-central-limit-theorem"
+          },
+          {
+            "slug": "frequencies-and-frequency-tables",
+            "title": "Frequencies and Frequency Tables",
+            "practice": false,
+            "builds_on": [
+              "stats1/types-of-variables-and-scales"
+            ],
+            "general": "beginner/descriptive-statistics"
+          },
+          {
+            "slug": "graphical-representations-for-discrete-variables",
+            "title": "Graphical Representations for Discrete Variables",
+            "practice": false,
+            "builds_on": [
+              "stats1/frequencies-and-frequency-tables"
+            ],
+            "general": "beginner/data-visualization"
+          },
+          {
+            "slug": "grouping-and-histograms",
+            "title": "Grouping and Histograms",
+            "practice": false,
+            "builds_on": [
+              "stats1/frequencies-and-frequency-tables"
+            ],
+            "general": "beginner/data-visualization"
+          },
+          {
+            "slug": "empirical-distribution-function-edf",
+            "title": "Empirical Distribution Function (EDF)",
+            "practice": false,
+            "builds_on": [
+              "stats1/frequencies-and-frequency-tables"
+            ],
+            "general": "beginner/data-visualization"
+          },
+          {
+            "slug": "practice-types-of-variables-frequencies-and-graphical-representations",
+            "title": "Practice: Types of Variables, Frequencies, and Graphical Representations",
+            "practice": true,
+            "builds_on": [
+              "stats1/types-of-variables-and-scales",
+              "stats1/grouping-and-histograms",
+              "stats1/empirical-distribution-function-edf"
+            ],
+            "general": null
+          }
+        ]
+      },
+      {
+        "title": "Location and dispersion",
+        "topics": [
+          {
+            "slug": "mode",
+            "title": "Mode",
+            "practice": false,
+            "builds_on": [
+              "stats1/frequencies-and-frequency-tables"
+            ],
+            "general": "beginner/descriptive-statistics"
+          },
+          {
+            "slug": "median",
+            "title": "Median",
+            "practice": false,
+            "builds_on": [
+              "stats1/types-of-variables-and-scales"
+            ],
+            "general": "beginner/descriptive-statistics"
+          },
+          {
+            "slug": "arithmetic-mean",
+            "title": "Arithmetic Mean",
+            "practice": false,
+            "builds_on": [
+              "stats1/frequencies-and-frequency-tables"
+            ],
+            "general": "beginner/descriptive-statistics"
+          },
+          {
+            "slug": "pooled-mean",
+            "title": "Pooled Mean",
+            "practice": false,
+            "builds_on": [
+              "stats1/arithmetic-mean"
+            ],
+            "general": "beginner/descriptive-statistics"
+          },
+          {
+            "slug": "geometric-mean",
+            "title": "Geometric Mean",
+            "practice": false,
+            "builds_on": [
+              "stats1/arithmetic-mean"
+            ],
+            "general": "beginner/descriptive-statistics"
+          },
+          {
+            "slug": "empirical-a-quantile-and-box-plots",
+            "title": "Empirical a-Quantile and Box Plots",
+            "practice": false,
+            "builds_on": [
+              "stats1/median"
+            ],
+            "general": "beginner/descriptive-statistics"
+          },
+          {
+            "slug": "measures-of-dispersion",
+            "title": "Measures of Dispersion",
+            "practice": false,
+            "builds_on": [
+              "stats1/arithmetic-mean",
+              "stats1/empirical-a-quantile-and-box-plots"
+            ],
+            "general": "beginner/descriptive-statistics"
+          },
+          {
+            "slug": "coefficient-of-variation",
+            "title": "Coefficient of Variation",
+            "practice": false,
+            "builds_on": [
+              "stats1/measures-of-dispersion"
+            ],
+            "general": "beginner/descriptive-statistics"
+          },
+          {
+            "slug": "practice-measures-of-location-dispersion-and-boxplots",
+            "title": "Practice: Measures of Location, Dispersion, and Boxplots",
+            "practice": true,
+            "builds_on": [
+              "stats1/median",
+              "stats1/arithmetic-mean",
+              "stats1/empirical-a-quantile-and-box-plots",
+              "stats1/measures-of-dispersion"
+            ],
+            "general": null
+          }
+        ]
+      },
+      {
+        "title": "Relationships between two variables",
+        "topics": [
+          {
+            "slug": "pearson-correlation-coefficient",
+            "title": "Pearson Correlation Coefficient",
+            "practice": false,
+            "builds_on": [
+              "stats1/measures-of-dispersion"
+            ],
+            "general": "intermediate/correlation"
+          },
+          {
+            "slug": "spearman-rank-correlation-coefficient",
+            "title": "Spearman Rank Correlation Coefficient",
+            "practice": false,
+            "builds_on": [
+              "stats1/pearson-correlation-coefficient",
+              "stats1/median"
+            ],
+            "general": "intermediate/correlation"
+          },
+          {
+            "slug": "linear-regression-and-least-squares",
+            "title": "Linear Regression and Least Squares",
+            "practice": false,
+            "builds_on": [
+              "stats1/pearson-correlation-coefficient"
+            ],
+            "general": "intermediate/simple-linear-regression"
+          },
+          {
+            "slug": "association",
+            "title": "Association",
+            "practice": false,
+            "builds_on": [
+              "stats1/frequencies-and-frequency-tables"
+            ],
+            "general": "expert/chi-square-tests"
+          },
+          {
+            "slug": "practice-correlation-regression-and-association",
+            "title": "Practice: Correlation, Regression, and Association",
+            "practice": true,
+            "builds_on": [
+              "stats1/pearson-correlation-coefficient",
+              "stats1/spearman-rank-correlation-coefficient",
+              "stats1/association"
+            ],
+            "general": null
+          }
+        ]
+      },
+      {
+        "title": "Probability foundations",
+        "topics": [
+          {
+            "slug": "set-theory",
+            "title": "Set Theory",
+            "practice": false,
+            "builds_on": [],
+            "general": "beginner/probability-basics"
+          },
+          {
+            "slug": "random-experiments-sample-space-and-events",
+            "title": "Random Experiments, Sample Space, and Events",
+            "practice": false,
+            "builds_on": [
+              "stats1/set-theory"
+            ],
+            "general": "beginner/probability-basics"
+          },
+          {
+            "slug": "probability-relative-frequencies-and-axioms",
+            "title": "Probability, Relative Frequencies, and Axioms",
+            "practice": false,
+            "builds_on": [
+              "stats1/random-experiments-sample-space-and-events",
+              "stats1/frequencies-and-frequency-tables"
+            ],
+            "general": "beginner/probability-basics"
+          },
+          {
+            "slug": "laplace-experiment-and-combinatorics",
+            "title": "Laplace Experiment and Combinatorics",
+            "practice": false,
+            "builds_on": [
+              "stats1/probability-relative-frequencies-and-axioms"
+            ],
+            "general": "beginner/probability-basics"
+          },
+          {
+            "slug": "conditional-probability-and-independence",
+            "title": "Conditional Probability and Independence",
+            "practice": false,
+            "builds_on": [
+              "stats1/probability-relative-frequencies-and-axioms"
+            ],
+            "general": "beginner/probability-basics"
+          },
+          {
+            "slug": "total-probability-rule-and-bayes-rule",
+            "title": "Total Probability Rule and Bayes' Rule",
+            "practice": false,
+            "builds_on": [
+              "stats1/conditional-probability-and-independence"
+            ],
+            "general": "beginner/probability-basics"
+          },
+          {
+            "slug": "practice-sample-spaces-events-and-probability-rules",
+            "title": "Practice: Sample Spaces, Events, and Probability Rules",
+            "practice": true,
+            "builds_on": [
+              "stats1/set-theory",
+              "stats1/probability-relative-frequencies-and-axioms"
+            ],
+            "general": null
+          }
+        ]
+      },
+      {
+        "title": "Random variables",
+        "topics": [
+          {
+            "slug": "random-variables-and-distribution-functions",
+            "title": "Random Variables and Distribution Functions",
+            "practice": false,
+            "builds_on": [
+              "stats1/probability-relative-frequencies-and-axioms",
+              "stats1/empirical-distribution-function-edf"
+            ],
+            "general": "beginner/discrete-distributions"
+          },
+          {
+            "slug": "continuous-random-variables-and-densities",
+            "title": "Continuous Random Variables and Densities",
+            "practice": false,
+            "builds_on": [
+              "stats1/random-variables-and-distribution-functions",
+              "stats1/grouping-and-histograms"
+            ],
+            "general": "beginner/continuous-distributions"
+          },
+          {
+            "slug": "expectation-and-variance",
+            "title": "Expectation and Variance",
+            "practice": false,
+            "builds_on": [
+              "stats1/random-variables-and-distribution-functions",
+              "stats1/arithmetic-mean",
+              "stats1/measures-of-dispersion"
+            ],
+            "general": "beginner/discrete-distributions"
+          },
+          {
+            "slug": "quantiles-of-distributions-and-skewness",
+            "title": "Quantiles of Distributions and Skewness",
+            "practice": false,
+            "builds_on": [
+              "stats1/expectation-and-variance",
+              "stats1/empirical-a-quantile-and-box-plots"
+            ],
+            "general": "beginner/continuous-distributions"
+          }
+        ]
+      },
+      {
+        "title": "Discrete distributions",
+        "topics": [
+          {
+            "slug": "discrete-uniform-and-bernoulli-distributions",
+            "title": "Discrete Uniform and Bernoulli Distributions",
+            "practice": false,
+            "builds_on": [
+              "stats1/expectation-and-variance",
+              "stats1/laplace-experiment-and-combinatorics"
+            ],
+            "general": "beginner/discrete-distributions"
+          },
+          {
+            "slug": "binomial-distribution",
+            "title": "Binomial Distribution",
+            "practice": false,
+            "builds_on": [
+              "stats1/discrete-uniform-and-bernoulli-distributions"
+            ],
+            "general": "beginner/discrete-distributions"
+          },
+          {
+            "slug": "hypergeometric-distribution",
+            "title": "Hypergeometric Distribution",
+            "practice": false,
+            "builds_on": [
+              "stats1/binomial-distribution",
+              "stats1/laplace-experiment-and-combinatorics"
+            ],
+            "general": "beginner/discrete-distributions"
+          },
+          {
+            "slug": "poisson-and-geometric-distributions",
+            "title": "Poisson and Geometric Distributions",
+            "practice": false,
+            "builds_on": [
+              "stats1/binomial-distribution"
+            ],
+            "general": "beginner/discrete-distributions"
+          }
+        ]
+      },
+      {
+        "title": "Continuous distributions",
+        "topics": [
+          {
+            "slug": "continuous-uniform-distribution",
+            "title": "Continuous Uniform Distribution",
+            "practice": false,
+            "builds_on": [
+              "stats1/continuous-random-variables-and-densities",
+              "stats1/expectation-and-variance"
+            ],
+            "general": "beginner/continuous-distributions"
+          },
+          {
+            "slug": "exponential-distribution",
+            "title": "Exponential Distribution",
+            "practice": false,
+            "builds_on": [
+              "stats1/continuous-random-variables-and-densities",
+              "stats1/poisson-and-geometric-distributions"
+            ],
+            "general": "beginner/continuous-distributions"
+          },
+          {
+            "slug": "normal-and-standard-normal-distributions",
+            "title": "Normal and Standard Normal Distributions",
+            "practice": false,
+            "builds_on": [
+              "stats1/continuous-random-variables-and-densities",
+              "stats1/quantiles-of-distributions-and-skewness"
+            ],
+            "general": "beginner/continuous-distributions"
+          },
+          {
+            "slug": "log-normal-and-pareto-distributions",
+            "title": "Log-Normal and Pareto Distributions",
+            "practice": false,
+            "builds_on": [
+              "stats1/normal-and-standard-normal-distributions"
+            ],
+            "general": "beginner/continuous-distributions"
+          },
+          {
+            "slug": "practice-discrete-and-continuous-distributions",
+            "title": "Practice: Discrete and Continuous Distributions",
+            "practice": true,
+            "builds_on": [
+              "stats1/hypergeometric-distribution",
+              "stats1/continuous-uniform-distribution",
+              "stats1/exponential-distribution",
+              "stats1/normal-and-standard-normal-distributions"
+            ],
+            "general": null
+          }
+        ]
+      },
+      {
+        "title": "Several random variables",
+        "topics": [
+          {
+            "slug": "joint-and-marginal-distributions",
+            "title": "Joint and Marginal Distributions",
+            "practice": false,
+            "builds_on": [
+              "stats1/random-variables-and-distribution-functions",
+              "stats1/frequencies-and-frequency-tables"
+            ],
+            "general": "expert/pca-and-multivariate-analysis"
+          },
+          {
+            "slug": "independence-of-random-variables",
+            "title": "Independence of Random Variables",
+            "practice": false,
+            "builds_on": [
+              "stats1/joint-and-marginal-distributions",
+              "stats1/conditional-probability-and-independence"
+            ],
+            "general": "beginner/probability-basics"
+          },
+          {
+            "slug": "multinomial-distribution",
+            "title": "Multinomial Distribution",
+            "practice": false,
+            "builds_on": [
+              "stats1/binomial-distribution",
+              "stats1/joint-and-marginal-distributions"
+            ],
+            "general": "beginner/discrete-distributions"
+          },
+          {
+            "slug": "two-dimensional-bivariate-normal-distribution",
+            "title": "Two-Dimensional (Bivariate) Normal Distribution",
+            "practice": false,
+            "builds_on": [
+              "stats1/normal-and-standard-normal-distributions",
+              "stats1/independence-of-random-variables",
+              "stats1/pearson-correlation-coefficient"
+            ],
+            "general": "expert/pca-and-multivariate-analysis"
+          }
+        ]
+      }
+    ]
+  },
+  "stats2": {
+    "title": "Stats 2",
+    "subtitle": "Statistical inference and testing",
+    "units": [
+      {
+        "title": "Foundations and estimation",
+        "topics": [
+          {
+            "slug": "descriptive-statistics-and-probability-theory",
+            "title": "Descriptive Statistics and Probability Theory",
+            "practice": true,
+            "builds_on": [
+              "stats1/expectation-and-variance",
+              "stats1/normal-and-standard-normal-distributions",
+              "stats1/independence-of-random-variables"
+            ],
+            "general": "beginner/sampling-and-the-central-limit-theorem"
+          },
+          {
+            "slug": "statistical-models-and-point-estimators",
+            "title": "Statistical Models and Point Estimators",
+            "practice": true,
+            "builds_on": [
+              "stats2/descriptive-statistics-and-probability-theory"
+            ],
+            "general": "intermediate/point-estimation-and-confidence-intervals"
+          },
+          {
+            "slug": "method-of-moments-and-maximum-likelihood-estimation",
+            "title": "Method of Moments and Maximum Likelihood Estimation",
+            "practice": false,
+            "builds_on": [
+              "stats2/statistical-models-and-point-estimators"
+            ],
+            "general": "expert/generalized-linear-models"
+          },
+          {
+            "slug": "linear-regression",
+            "title": "Linear Regression",
+            "practice": true,
+            "builds_on": [
+              "stats1/linear-regression-and-least-squares",
+              "stats2/statistical-models-and-point-estimators"
+            ],
+            "general": "intermediate/simple-linear-regression"
+          }
+        ]
+      },
+      {
+        "title": "Confidence intervals and tests",
+        "topics": [
+          {
+            "slug": "confidence-bounds-and-intervals",
+            "title": "Confidence Bounds and Intervals",
+            "practice": true,
+            "builds_on": [
+              "stats2/statistical-models-and-point-estimators"
+            ],
+            "general": "intermediate/point-estimation-and-confidence-intervals"
+          },
+          {
+            "slug": "statistical-tests-and-hypotheses",
+            "title": "Statistical Tests and Hypotheses",
+            "practice": true,
+            "builds_on": [
+              "stats2/confidence-bounds-and-intervals"
+            ],
+            "general": "intermediate/hypothesis-testing"
+          },
+          {
+            "slug": "multiple-testing-and-test-assumptions",
+            "title": "Multiple Testing and Test Assumptions",
+            "practice": true,
+            "builds_on": [
+              "stats2/statistical-tests-and-hypotheses"
+            ],
+            "general": "intermediate/hypothesis-testing"
+          }
+        ]
+      },
+      {
+        "title": "Comparing groups",
+        "topics": [
+          {
+            "slug": "two-sample-problem",
+            "title": "Two-Sample Problem",
+            "practice": true,
+            "builds_on": [
+              "stats2/statistical-tests-and-hypotheses"
+            ],
+            "general": "intermediate/t-tests"
+          },
+          {
+            "slug": "comparison-of-more-than-two-samples",
+            "title": "Comparison of More Than Two Samples",
+            "practice": true,
+            "builds_on": [
+              "stats2/two-sample-problem"
+            ],
+            "general": "intermediate/anova"
+          },
+          {
+            "slug": "simultaneous-comparisons-tukey-kramer-method",
+            "title": "Simultaneous comparisons (Tukey-Kramer method)",
+            "practice": true,
+            "builds_on": [
+              "stats2/comparison-of-more-than-two-samples",
+              "stats2/multiple-testing-and-test-assumptions"
+            ],
+            "general": "intermediate/anova"
+          },
+          {
+            "slug": "two-way-anova",
+            "title": "Two-way ANOVA",
+            "practice": false,
+            "builds_on": [
+              "stats2/comparison-of-more-than-two-samples"
+            ],
+            "general": "intermediate/anova"
+          },
+          {
+            "slug": "kruskal-wallis-test",
+            "title": "Kruskal-Wallis test",
+            "practice": true,
+            "builds_on": [
+              "stats2/comparison-of-more-than-two-samples",
+              "stats2/two-sample-problem"
+            ],
+            "general": "expert/non-parametric-tests"
+          },
+          {
+            "slug": "paired-samples-and-hotelling-test",
+            "title": "Paired samples and Hotelling Test",
+            "practice": false,
+            "builds_on": [
+              "stats2/two-sample-problem"
+            ],
+            "general": "intermediate/t-tests"
+          }
+        ]
+      },
+      {
+        "title": "Categorical data and dependence",
+        "topics": [
+          {
+            "slug": "chi-square-test-of-homogeneity",
+            "title": "χ²-test of homogeneity",
+            "practice": false,
+            "builds_on": [
+              "stats2/statistical-tests-and-hypotheses",
+              "stats1/association"
+            ],
+            "general": "expert/chi-square-tests"
+          },
+          {
+            "slug": "chi-square-test-of-independence",
+            "title": "χ² test of independence",
+            "practice": false,
+            "builds_on": [
+              "stats2/chi-square-test-of-homogeneity"
+            ],
+            "general": "expert/chi-square-tests"
+          },
+          {
+            "slug": "chi-square-test-of-homogeneity-and-independence",
+            "title": "χ²-test of homogeneity and independence",
+            "practice": true,
+            "builds_on": [
+              "stats2/chi-square-test-of-homogeneity",
+              "stats2/chi-square-test-of-independence"
+            ],
+            "general": "expert/chi-square-tests"
+          },
+          {
+            "slug": "test-of-independence-for-normal-rvs-and-confidence-interval-for-rho",
+            "title": "Test of independence for normal RVs and Confidence interval for ρ",
+            "practice": false,
+            "builds_on": [
+              "stats1/pearson-correlation-coefficient",
+              "stats1/two-dimensional-bivariate-normal-distribution",
+              "stats2/statistical-tests-and-hypotheses"
+            ],
+            "general": "intermediate/correlation"
+          },
+          {
+            "slug": "independence-test-for-continuous-and-ordinal-data-spearmans-rank-correlation",
+            "title": "Independence test for continuous and ordinal data (Spearman's rank correlation)",
+            "practice": true,
+            "builds_on": [
+              "stats1/spearman-rank-correlation-coefficient",
+              "stats2/test-of-independence-for-normal-rvs-and-confidence-interval-for-rho"
+            ],
+            "general": "expert/non-parametric-tests"
+          }
+        ]
+      },
+      {
+        "title": "Goodness of fit",
+        "topics": [
+          {
+            "slug": "chi-square-goodness-of-fit-test",
+            "title": "Chi-square goodness-of-fit test",
+            "practice": true,
+            "builds_on": [
+              "stats2/chi-square-test-of-homogeneity",
+              "stats2/method-of-moments-and-maximum-likelihood-estimation"
+            ],
+            "general": "expert/chi-square-tests"
+          },
+          {
+            "slug": "further-goodness-of-fit-tests-kolmogorov-smirnov-anderson-darling-qq-plots",
+            "title": "Further Goodness-of-fit tests (Kolmogorov-Smirnov, Anderson-Darling, QQ-Plots)",
+            "practice": false,
+            "builds_on": [
+              "stats2/chi-square-goodness-of-fit-test",
+              "stats1/empirical-distribution-function-edf"
+            ],
+            "general": "expert/non-parametric-tests"
+          },
+          {
+            "slug": "normal-goodness-of-fit-tests-shapiro-wilk-jarque-bera",
+            "title": "Normal goodness-of-fit tests (Shapiro-Wilk, Jarque-Bera)",
+            "practice": true,
+            "builds_on": [
+              "stats2/further-goodness-of-fit-tests-kolmogorov-smirnov-anderson-darling-qq-plots",
+              "stats1/quantiles-of-distributions-and-skewness"
+            ],
+            "general": "intermediate/regression-diagnostics"
+          }
+        ]
+      },
+      {
+        "title": "Study design",
+        "topics": [
+          {
+            "slug": "statistical-modelling-and-difference-in-difference",
+            "title": "Statistical Modelling and Difference in Difference",
+            "practice": false,
+            "builds_on": [
+              "stats2/two-sample-problem",
+              "stats2/paired-samples-and-hotelling-test"
+            ],
+            "general": "expert/causal-inference-and-difference-in-differences"
+          }
+        ]
+      }
+    ]
+  },
+  "stats3": {
+    "title": "Stats 3",
+    "subtitle": "Econometrics and regression",
+    "units": [
+      {
+        "title": "Econometrics and economic data",
+        "topics": [
+          {
+            "slug": "what-is-econometrics",
+            "title": "What is Econometrics?",
+            "practice": false,
+            "builds_on": [],
+            "general": "expert/causal-inference-and-difference-in-differences"
+          },
+          {
+            "slug": "steps-in-empirical-economic-analysis",
+            "title": "Steps in Empirical Economic Analysis",
+            "practice": false,
+            "builds_on": [
+              "stats3/what-is-econometrics"
+            ],
+            "general": null
+          },
+          {
+            "slug": "the-structure-of-economic-data",
+            "title": "The Structure of Economic Data",
+            "practice": false,
+            "builds_on": [
+              "stats3/what-is-econometrics"
+            ],
+            "general": "expert/time-series-analysis"
+          },
+          {
+            "slug": "causality-and-the-notion-of-ceteris-paribus-in-econometric-analysis",
+            "title": "Causality and the Notion of Ceteris Paribus in Econometric Analysis",
+            "practice": false,
+            "builds_on": [
+              "stats3/steps-in-empirical-economic-analysis"
+            ],
+            "general": "expert/causal-inference-and-difference-in-differences"
+          },
+          {
+            "slug": "introduction-to-econometrics-and-data-analysis",
+            "title": "Introduction to Econometrics and Data Analysis",
+            "practice": true,
+            "builds_on": [
+              "stats3/the-structure-of-economic-data"
+            ],
+            "general": "beginner/descriptive-statistics"
+          }
+        ]
+      },
+      {
+        "title": "The simple regression model",
+        "topics": [
+          {
+            "slug": "definition-of-the-simple-regression-model",
+            "title": "Definition of the Simple Regression Model",
+            "practice": false,
+            "builds_on": [
+              "stats3/causality-and-the-notion-of-ceteris-paribus-in-econometric-analysis",
+              "stats2/linear-regression"
+            ],
+            "general": "intermediate/simple-linear-regression"
+          },
+          {
+            "slug": "deriving-the-ordinary-least-squares-estimates",
+            "title": "Deriving the Ordinary Least Squares Estimates",
+            "practice": false,
+            "builds_on": [
+              "stats3/definition-of-the-simple-regression-model",
+              "stats2/method-of-moments-and-maximum-likelihood-estimation"
+            ],
+            "general": "intermediate/simple-linear-regression"
+          },
+          {
+            "slug": "properties-of-ols-on-any-sample-of-data",
+            "title": "Properties of OLS on Any Sample of Data",
+            "practice": false,
+            "builds_on": [
+              "stats3/deriving-the-ordinary-least-squares-estimates"
+            ],
+            "general": "intermediate/simple-linear-regression"
+          },
+          {
+            "slug": "units-of-measurement-and-functional-form",
+            "title": "Units of Measurement and Functional Form",
+            "practice": false,
+            "builds_on": [
+              "stats3/properties-of-ols-on-any-sample-of-data"
+            ],
+            "general": "intermediate/simple-linear-regression"
+          },
+          {
+            "slug": "expected-values-and-variances-of-the-ols-estimators",
+            "title": "Expected Values and Variances of the OLS Estimators",
+            "practice": false,
+            "builds_on": [
+              "stats3/deriving-the-ordinary-least-squares-estimates",
+              "stats2/statistical-models-and-point-estimators"
+            ],
+            "general": "intermediate/simple-linear-regression"
+          },
+          {
+            "slug": "the-simple-regression-model",
+            "title": "The Simple Regression Model",
+            "practice": true,
+            "builds_on": [
+              "stats3/deriving-the-ordinary-least-squares-estimates",
+              "stats3/units-of-measurement-and-functional-form"
+            ],
+            "general": null
+          }
+        ]
+      },
+      {
+        "title": "Multiple regression: estimation",
+        "topics": [
+          {
+            "slug": "motivation-for-multiple-regression",
+            "title": "Motivation for Multiple Regression",
+            "practice": false,
+            "builds_on": [
+              "stats3/causality-and-the-notion-of-ceteris-paribus-in-econometric-analysis",
+              "stats3/definition-of-the-simple-regression-model"
+            ],
+            "general": "intermediate/multiple-linear-regression"
+          },
+          {
+            "slug": "mechanics-and-interpretation-of-ols-multiple-regression",
+            "title": "Mechanics and Interpretation of OLS (Multiple Regression)",
+            "practice": false,
+            "builds_on": [
+              "stats3/motivation-for-multiple-regression",
+              "stats3/deriving-the-ordinary-least-squares-estimates"
+            ],
+            "general": "intermediate/multiple-linear-regression"
+          },
+          {
+            "slug": "the-expected-value-of-the-ols-estimators",
+            "title": "The Expected Value of the OLS Estimators",
+            "practice": false,
+            "builds_on": [
+              "stats3/mechanics-and-interpretation-of-ols-multiple-regression",
+              "stats3/expected-values-and-variances-of-the-ols-estimators"
+            ],
+            "general": "intermediate/multiple-linear-regression"
+          },
+          {
+            "slug": "the-variance-of-the-ols-estimators",
+            "title": "The Variance of the OLS Estimators",
+            "practice": false,
+            "builds_on": [
+              "stats3/the-expected-value-of-the-ols-estimators"
+            ],
+            "general": "intermediate/regression-diagnostics"
+          },
+          {
+            "slug": "efficiency-of-ols-the-gauss-markov-theorem",
+            "title": "Efficiency of OLS: The Gauss-Markov Theorem",
+            "practice": false,
+            "builds_on": [
+              "stats3/the-variance-of-the-ols-estimators"
+            ],
+            "general": "intermediate/regression-diagnostics"
+          },
+          {
+            "slug": "multiple-regression-analysis-estimation",
+            "title": "Multiple Regression Analysis: Estimation",
+            "practice": true,
+            "builds_on": [
+              "stats3/mechanics-and-interpretation-of-ols-multiple-regression"
+            ],
+            "general": null
+          }
+        ]
+      },
+      {
+        "title": "Multiple regression: inference",
+        "topics": [
+          {
+            "slug": "sampling-distributions-of-the-ols-estimator",
+            "title": "Sampling Distributions of the OLS Estimator",
+            "practice": false,
+            "builds_on": [
+              "stats3/efficiency-of-ols-the-gauss-markov-theorem",
+              "stats1/normal-and-standard-normal-distributions"
+            ],
+            "general": "intermediate/multiple-linear-regression"
+          },
+          {
+            "slug": "hypothesis-testing-the-t-test",
+            "title": "Hypothesis Testing: The t Test",
+            "practice": false,
+            "builds_on": [
+              "stats3/sampling-distributions-of-the-ols-estimator",
+              "stats2/statistical-tests-and-hypotheses"
+            ],
+            "general": "intermediate/hypothesis-testing"
+          },
+          {
+            "slug": "confidence-intervals",
+            "title": "Confidence Intervals",
+            "practice": false,
+            "builds_on": [
+              "stats3/hypothesis-testing-the-t-test",
+              "stats2/confidence-bounds-and-intervals"
+            ],
+            "general": "intermediate/point-estimation-and-confidence-intervals"
+          },
+          {
+            "slug": "testing-hypotheses-about-a-single-linear-combination-of-the-parameters",
+            "title": "Testing Hypotheses about a Single Linear Combination of the Parameters",
+            "practice": false,
+            "builds_on": [
+              "stats3/hypothesis-testing-the-t-test"
+            ],
+            "general": "intermediate/multiple-linear-regression"
+          },
+          {
+            "slug": "testing-multiple-linear-restrictions-the-f-test",
+            "title": "Testing Multiple Linear Restrictions: The F Test",
+            "practice": false,
+            "builds_on": [
+              "stats3/hypothesis-testing-the-t-test",
+              "stats2/comparison-of-more-than-two-samples"
+            ],
+            "general": "intermediate/multiple-linear-regression"
+          },
+          {
+            "slug": "reporting-regression-results",
+            "title": "Reporting Regression Results",
+            "practice": false,
+            "builds_on": [
+              "stats3/testing-multiple-linear-restrictions-the-f-test"
+            ],
+            "general": "intermediate/multiple-linear-regression"
+          },
+          {
+            "slug": "multiple-regression-analysis-inference",
+            "title": "Multiple Regression Analysis: Inference",
+            "practice": true,
+            "builds_on": [
+              "stats3/hypothesis-testing-the-t-test",
+              "stats3/testing-multiple-linear-restrictions-the-f-test"
+            ],
+            "general": null
+          }
+        ]
+      },
+      {
+        "title": "Large-sample properties",
+        "topics": [
+          {
+            "slug": "consistency",
+            "title": "Consistency",
+            "practice": false,
+            "builds_on": [
+              "stats3/the-expected-value-of-the-ols-estimators",
+              "stats2/statistical-models-and-point-estimators"
+            ],
+            "general": "beginner/sampling-and-the-central-limit-theorem"
+          },
+          {
+            "slug": "asymptotic-normality-and-large-sample-inference",
+            "title": "Asymptotic Normality and Large Sample Inference",
+            "practice": false,
+            "builds_on": [
+              "stats3/consistency",
+              "stats3/sampling-distributions-of-the-ols-estimator"
+            ],
+            "general": "beginner/sampling-and-the-central-limit-theorem"
+          },
+          {
+            "slug": "multiple-regression-analysis-ols-asymptotics",
+            "title": "Multiple Regression Analysis: OLS Asymptotics",
+            "practice": true,
+            "builds_on": [
+              "stats3/consistency",
+              "stats3/the-expected-value-of-the-ols-estimators"
+            ],
+            "general": null
+          }
+        ]
+      },
+      {
+        "title": "Further issues",
+        "topics": [
+          {
+            "slug": "effects-of-data-scaling-on-ols-statistics",
+            "title": "Effects of Data Scaling on OLS Statistics",
+            "practice": false,
+            "builds_on": [
+              "stats3/units-of-measurement-and-functional-form",
+              "stats3/hypothesis-testing-the-t-test"
+            ],
+            "general": "intermediate/multiple-linear-regression"
+          },
+          {
+            "slug": "more-on-functional-form",
+            "title": "More on Functional Form",
+            "practice": false,
+            "builds_on": [
+              "stats3/units-of-measurement-and-functional-form",
+              "stats3/mechanics-and-interpretation-of-ols-multiple-regression"
+            ],
+            "general": "intermediate/multiple-linear-regression"
+          },
+          {
+            "slug": "more-on-goodness-of-fit-and-selection-of-regressors",
+            "title": "More on Goodness-of-Fit and Selection of Regressors",
+            "practice": false,
+            "builds_on": [
+              "stats3/properties-of-ols-on-any-sample-of-data",
+              "stats3/hypothesis-testing-the-t-test"
+            ],
+            "general": "intermediate/regression-diagnostics"
+          },
+          {
+            "slug": "prediction-and-residual-analysis",
+            "title": "Prediction and Residual Analysis",
+            "practice": false,
+            "builds_on": [
+              "stats3/properties-of-ols-on-any-sample-of-data"
+            ],
+            "general": "intermediate/regression-diagnostics"
+          },
+          {
+            "slug": "multiple-regression-analysis-further-issues",
+            "title": "Multiple Regression Analysis: Further Issues",
+            "practice": true,
+            "builds_on": [
+              "stats3/effects-of-data-scaling-on-ols-statistics",
+              "stats3/more-on-functional-form"
+            ],
+            "general": null
+          }
+        ]
+      }
+    ]
+  }
+}
