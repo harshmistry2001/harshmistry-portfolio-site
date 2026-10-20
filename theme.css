@@ -1,0 +1,56 @@
+/* ------------------------------------------------------------------
+   COLOURS AND FONTS. Change a value here and the whole site follows.
+   Three colours only: background, text, accent.
+   ------------------------------------------------------------------ */
+:root{
+  /* Light mode */
+  --bg:#F3F1EC;            /* paper */
+  --fg:#1C1C1B;            /* ink */
+  --accent:#B8701A;        /* marigold */
+  --on-accent:#1C1C1B;     /* text on accent buttons */
+  --line:rgba(28,28,27,.16);
+  --muted:rgba(28,28,27,.66);
+
+  /* Fonts. First name is used if it is loaded, the rest are backups. */
+  --sans:"Albert Sans",system-ui,-apple-system,"Segoe UI",sans-serif;   /* all normal text */
+  --num:"Doto",ui-monospace,Menlo,Consolas,monospace;                   /* big numbers */
+  --hand:"Nanum Pen Script","Segoe Print","Bradley Hand",cursive;       /* handwritten notes */
+}
+
+/* Dark mode follows the visitor's device setting */
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#1C1C1B; --fg:#F3F1EC; --accent:#E0A24A; --on-accent:#1C1C1B;
+    --line:rgba(243,241,236,.18); --muted:rgba(243,241,236,.68);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1C1C1B; --fg:#F3F1EC; --accent:#E0A24A; --on-accent:#1C1C1B;
+  --line:rgba(243,241,236,.18); --muted:rgba(243,241,236,.68);
+  color-scheme:dark;
+}
+
+/* ---- READY-MADE ALTERNATIVES ----------------------------------------
+   To try one: copy its three colour lines over the light-mode ones above.
+
+   Forest:   --bg:#EEF1EC;  --fg:#18211B;  --accent:#2F6B4F;
+   Indigo:   --bg:#F2F2F0;  --fg:#1B1C22;  --accent:#4A55B8;
+   Clay:     --bg:#F4EFEA;  --fg:#231C19;  --accent:#B5452A;
+------------------------------------------------------------------------ */
+
+/* ---- USING YOUR OWN FONT (for example Satoshi from Fontshare) --------
+   1. Download the font files (.woff2) into a new folder: assets/fonts/
+   2. Uncomment and edit this block, then set --sans above to "Satoshi".
+
+   @font-face{
+     font-family:"Satoshi";
+     src:url("assets/fonts/Satoshi-Regular.woff2") format("woff2");
+     font-weight:400; font-display:swap;
+   }
+   @font-face{
+     font-family:"Satoshi";
+     src:url("assets/fonts/Satoshi-Bold.woff2") format("woff2");
+     font-weight:700; font-display:swap;
+   }
+------------------------------------------------------------------------ */

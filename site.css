@@ -1,0 +1,80 @@
+/* Layout and components. Colours and fonts come from theme.css. */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 1rem/1.55 var(--sans);padding-inline:max(1rem,4vw);padding-block:0 3rem}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:70rem;margin-inline:auto}
+.note{font-family:var(--hand);font-size:1.9rem;line-height:1;color:var(--accent);margin:0}
+.muted{color:var(--muted)}
+
+/* Header */
+.top{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-block:1.25rem}
+.top b{font-weight:700}
+.top nav{display:flex;gap:1.4rem}
+.top nav a{text-decoration:none;color:var(--muted)}
+.top nav a:hover{color:var(--fg)}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:2rem;align-items:center;padding-block:2rem 3rem}
+.hero h1{font-weight:700;font-size:clamp(2.3rem,5.6vw,4.2rem);line-height:1.02;letter-spacing:-.03em;margin:.6rem 0 1.6rem;text-wrap:balance}
+.cta{display:flex;gap:.7rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.8rem 1.3rem;border-radius:999px;text-decoration:none;font-weight:500;background:var(--accent);color:var(--on-accent);border:1px solid var(--accent)}
+.btn.ghost{background:transparent;color:var(--fg);border-color:var(--fg)}
+.btn:hover{filter:brightness(1.07)}
+
+/* 3D stack (moves with the cursor, drifts on its own on phones) */
+.stage{perspective:1200px;display:grid;place-items:center;min-height:22rem;touch-action:pan-y}
+.stack{position:relative;width:min(100%,32rem);aspect-ratio:1.12;transform-style:preserve-3d;transform:rotateX(8deg) rotateY(-12deg)}
+.c{position:absolute;margin:0;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--bg);box-shadow:0 22px 44px rgba(0,0,0,.25)}
+.c img{display:block;width:100%;height:auto}
+.c1{width:80%;left:0;top:32%;transform:translateZ(70px)}
+.c2{width:66%;right:0;top:0;transform:translateZ(0) rotate(4deg)}
+.c3{width:36%;left:3%;top:2%;transform:translateZ(140px) rotate(-6deg)}
+
+/* Sections */
+section{padding-block:2.5rem 0}
+h2{font-weight:700;font-size:clamp(1.8rem,3.6vw,2.6rem);letter-spacing:-.025em;line-height:1.1;margin:.4rem 0 1.2rem}
+
+/* Filter chips and skill pills */
+.chips,.pills{display:flex;flex-wrap:wrap;gap:.55rem}
+.chips{margin-bottom:1.4rem}
+.chip,.pill{font:500 .92rem var(--sans);cursor:pointer;padding:.45rem 1rem;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--fg)}
+.chip:hover,.pill:hover{border-color:var(--fg)}
+.chip[aria-pressed="true"],.pill[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.proof{min-height:1.6rem;margin:1rem 0 0;color:var(--muted)}
+
+/* Project tiles */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));gap:1.6rem 1.2rem}
+.tile{display:grid;gap:.5rem;align-content:start;min-width:0}
+.tile[hidden]{display:none}
+.shot{border-radius:12px;overflow:hidden;border:1px solid var(--line);aspect-ratio:16/10;background:var(--line);display:grid;place-items:center}
+.shot img{width:100%;height:100%;object-fit:cover;display:block}
+.shot.contain img{width:auto;max-width:90%;max-height:90%;object-fit:contain;border-radius:8px}
+.shot.numonly{background:transparent}
+.shot.numonly .big{font-size:4.2rem}
+.lens{font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.tile h3{font-size:1.2rem;font-weight:700;margin:0;letter-spacing:-.01em}
+.tile h3 a{text-decoration:none}
+.tile h3 a:hover{text-decoration:underline}
+.big{font-family:var(--num);font-weight:700;font-size:2.4rem;line-height:1;color:var(--accent);margin:.1rem 0 0}
+.cap{margin:0;color:var(--muted);font-size:.92rem}
+.tile.dim{opacity:.28}
+.tile.hit .shot{outline:2px solid var(--accent);outline-offset:3px}
+
+/* Contact and footer */
+.contact{padding-bottom:1rem}
+.mail{display:flex;flex-wrap:wrap;gap:.7rem;align-items:center;margin:0 0 .6rem}
+.mail span{font-size:1.25rem;font-weight:500;color:var(--accent);overflow-wrap:anywhere;user-select:all}
+.mail button{font:500 .85rem var(--sans);cursor:pointer;padding:.4rem .9rem;border-radius:999px;border:1px solid var(--fg);background:transparent;color:var(--fg)}
+footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem}
+
+/* Phone layout */
+@media (max-width:48rem){
+  .hero{grid-template-columns:minmax(0,1fr)}
+  .stage{min-height:17rem}
+}
+@media (prefers-reduced-motion:no-preference){
+  .tile{transition:transform .2s ease,opacity .2s ease}
+  .tile:hover{transform:translateY(-4px)}
+}
