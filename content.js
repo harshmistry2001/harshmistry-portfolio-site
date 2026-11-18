@@ -124,7 +124,8 @@ window.SITE = {
     links: [
       { label: "LinkedIn", href: "https://linkedin.com/in/harsh-mistry-6508b920b" },
       { label: "GitHub",   href: "https://github.com/harshmistry2001" },
-      { label: "Statistics reference", href: "/stats/" }
+      { label: "Statistics reference", href: "/stats/" },
+      { label: "Reel Notes", href: "/cinema/" }
     ]
   },
 
